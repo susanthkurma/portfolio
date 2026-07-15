@@ -26,7 +26,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/susanthkurma/portfolio"
             className="border px-6 py-3 rounded-lg"
           >
             GitHub

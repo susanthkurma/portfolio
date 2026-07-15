@@ -9,15 +9,15 @@ export default function Contact() {
         </h2>
 
         <p className="mt-5">
-          Email: your@email.com
+          Email: susanthkurma3@gmail.com
         </p>
 
         <p>
-          LinkedIn: linkedin.com/in/yourprofile
+          LinkedIn: www.linkedin.com/in/susanth-kurma-56aa76160
         </p>
 
         <p>
-          GitHub: github.com/yourusername
+          GitHub: https://github.com/susanthkurma/portfolio
         </p>
 
       </div>
