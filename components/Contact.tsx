@@ -18,7 +18,7 @@ export default function Contact() {
         <div className="space-y-4 text-lg">
 
           <p>
-            <span className="font-semibold">📧 Email:</span>{" "}
+            <span className="font-semibold">📧 Email:</span>{"susanthkurma3@gmail.com "}
             susanthkurma3@gmail.com
           </p>
 
