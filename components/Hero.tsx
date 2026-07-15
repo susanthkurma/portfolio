@@ -16,15 +16,15 @@ export default function Hero() {
   width={220}
   height={220}
   className="
-    w-56
-    h-56
-    rounded-full
-    object-cover
-    object-center
-    border-4
-    border-cyan-400
-    shadow-2xl
-  "
+w-56
+h-56
+rounded-full
+object-cover
+object-[center_15%]
+border-4
+border-cyan-400
+shadow-2xl
+"
 />
 
           
