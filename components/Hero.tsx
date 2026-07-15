@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-black text-white flex items-center justify-center">
+    <section className="min-h-screen pt-32 bg-gradient-to-br from-slate-950 via-slate-900 to-black text-white flex items-center justify-center">
 
       <div className="max-w-5xl mx-auto text-center px-6">
 
@@ -11,42 +11,25 @@ export default function Hero() {
         <div className="relative group w-fit mx-auto">
 
           <Image
-            src="/profile.png"
-            width={230}
-            height={150}
-            alt="Susanth Kurma"
-            className="
-              rounded-full
-              border-4
-              border-cyan-400
-              object-cover
-              shadow-2xl
-              transition-all
-              duration-500
-              group-hover:scale-105
-            "
-          />
+  src="/profile.jpg"
+  alt="Susanth Kurma"
+  width={220}
+  height={220}
+  className="
+    w-56
+    h-56
+    rounded-full
+    object-cover
+    object-center
+    border-4
+    border-cyan-400
+    shadow-2xl
+  "
+/>
 
           {/* Hover Overlay */}
 
-          <div
-            className="
-              absolute
-              inset-0
-              rounded-full
-              bg-black/70
-              opacity-0
-              group-hover:opacity-100
-              transition
-              flex
-              items-center
-              justify-center
-            "
-          >
-            <h2 className="text-2xl font-bold">
-              
-            </h2>
-          </div>
+          
 
         </div>
 
