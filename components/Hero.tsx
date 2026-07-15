@@ -1,40 +1,44 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center">
+    <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-slate-950 to-slate-900 text-white">
+
       <div className="text-center">
 
-        <img
-          src="/profile.jpg"
-          className="mx-auto rounded-full w-48 h-48 border-4 border-cyan-400"
-        />
+        <div className="relative group w-fit mx-auto">
 
-        <h1 className="text-6xl font-bold mt-8">
-          Hi, I'm Susanth
-        </h1>
+          <Image
+            src="/profile.jpg"
+            alt="Susanth Kurma"
+            width={220}
+            height={220}
+            className="rounded-full border-4 border-cyan-400 shadow-2xl object-cover"
+          />
 
-        <p className="text-2xl text-gray-400 mt-5">
-          Data Analyst | Power BI | Microsoft Fabric | SQL
-        </p>
-
-        <div className="mt-10 space-x-4">
-
-          <a
-            href="/resume.pdf"
-            className="bg-cyan-500 px-6 py-3 rounded-lg"
-          >
-            Resume
-          </a>
-
-          <a
-            href="https://github.com/susanthkurma/portfolio"
-            className="border px-6 py-3 rounded-lg"
-          >
-            GitHub
-          </a>
+          <div className="absolute inset-0 rounded-full bg-black/70 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+            <h2 className="text-2xl font-bold">
+              Susanth Kurma
+            </h2>
+          </div>
 
         </div>
 
+        <h1 className="text-6xl font-bold mt-10">
+          Hi, I'm Susanth
+        </h1>
+
+        <p className="text-2xl text-slate-300 mt-6">
+          Data Analyst | Power BI | Microsoft Fabric | SQL
+        </p>
+
+        <p className="text-slate-400 mt-5 max-w-3xl mx-auto">
+          Passionate about transforming business data into meaningful insights
+          using Microsoft Fabric, Power BI, SQL, Python, and modern analytics.
+        </p>
+
       </div>
+
     </section>
   );
 }
