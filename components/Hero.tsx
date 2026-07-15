@@ -2,53 +2,81 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen pt-32 bg-gradient-to-br from-slate-950 via-slate-900 to-black text-white flex items-center justify-center">
+    <section className="min-h-screen bg-[#16171d] text-white flex items-center">
 
-      <div className="max-w-5xl mx-auto text-center px-6">
+      <div className="max-w-7xl mx-auto px-10">
 
-        {/* Profile Image */}
+        <div className="grid lg:grid-cols-2 items-center gap-16">
 
-        <div className="relative group w-fit mx-auto">
+          {/* LEFT */}
 
-          <Image
-  src="/profile.png"
-  alt="Susanth Kurma"
-  width={220}
-  height={220}
-  className="
-w-56
-h-56
-rounded-full
-object-cover
-object-[center_15%]
-border-4
-border-cyan-400
-shadow-2xl
-"
-/>
+          <div className="relative">
 
-          
+            <Image
+              src="/profile.png"
+              alt="Susanth"
+              width={650}
+              height={750}
+              className="
+              rounded-t-full
+              rounded-b-full
+              object-cover
+              w-full
+              max-w-xl
+              mx-auto
+              "
+            />
 
-          
+          </div>
+
+          {/* RIGHT */}
+
+          <div>
+
+            <h1
+              className="
+              text-7xl
+              lg:text-8xl
+              font-black
+              uppercase
+              leading-none
+              "
+            >
+              Susanth
+            </h1>
+
+            <h1
+              className="
+              text-7xl
+              lg:text-8xl
+              font-black
+              uppercase
+              leading-none
+              "
+            >
+              Kurma
+            </h1>
+
+            <p className="text-cyan-400 tracking-[6px] mt-6 uppercase">
+
+              Data Analyst
+
+            </p>
+
+            <p className="text-slate-300 mt-10 leading-9 text-lg">
+
+              Passionate Data Analyst with experience in
+              Microsoft Fabric, Power BI, SQL, Python,
+              PySpark, Azure Synapse and Business Intelligence.
+
+              I enjoy transforming business data into
+              actionable insights and interactive dashboards.
+
+            </p>
+
+          </div>
 
         </div>
-
-        <h1 className="text-7xl font-extrabold mt-10">
-          Hi, I'm Susanth
-        </h1>
-
-        <p className="text-3xl text-cyan-400 mt-5">
-          Data Analyst
-        </p>
-
-        <p className="text-xl text-slate-300 mt-3">
-          Excel • Power BI • SQL • Python • Azure • Dataiku
-        </p>
-
-        <p className="text-slate-400 mt-8 max-w-3xl mx-auto leading-8">
-          I build interactive dashboards, automate reporting,
-          and transform complex data into meaningful business insights.
-        </p>
 
       </div>
 
