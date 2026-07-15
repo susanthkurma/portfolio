@@ -44,7 +44,7 @@ export default function Hero() {
             "
           >
             <h2 className="text-2xl font-bold">
-              Susanth Kurma
+              
             </h2>
           </div>
 
