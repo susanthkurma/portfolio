@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="relative group w-fit mx-auto">
 
           <Image
-            src="/profile.jpg"
+            src="/profile.png"
             alt="Susanth Kurma"
             width={220}
             height={220}
