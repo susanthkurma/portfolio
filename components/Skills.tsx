@@ -19,7 +19,7 @@ const skills = [
   },
   {
     name: "PySpark",
-    image: "/icons/pyspark.png",
+    image: "/icons/pyspark.jpg",
   },
   {
     name: "Azure Synapse",
@@ -32,6 +32,34 @@ const skills = [
   {
     name: "Git",
     image: "/icons/github.png",
+  },
+  {
+    name: "AWS",
+    image: "/icons/aws.png",
+  },
+  {
+    name: "Azure",
+    image: "/icons/azure.png",
+  },
+  {
+    name: "Exploratory Data Analysis",
+    image: "/icons/exploratory-data-analysis.png",
+  },
+  {
+    name: "Matplotlib",
+    image: "/icons/matplotlib.png",
+  },
+  {
+    name: "Numpy",
+    image: "/icons/numpy.png",
+  },
+  {
+    name: "Pandas",
+    image: "/icons/pandas.png",
+  },
+  {
+    name: "Dashboard",
+    image: "/icons/dashboard.png",
   },
 ];
 
