@@ -13,7 +13,7 @@ export default function Hero() {
           <Image
             src="/profile.png"
             width={230}
-            height={230}
+            height={150}
             alt="Susanth Kurma"
             className="
               rounded-full
